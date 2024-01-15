@@ -1,0 +1,239 @@
+
+<style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+        * {
+            font-family: 'Chakra Petch', sans-serif;
+            line-height: .35in;
+            background-color: rgb(144, 238, 144);
+            background-image: url();
+            box-sizing: border-box;
+        }
+        @media only screen and (max-width:700px) {
+            body {
+                background-color: lightgoldenrodyellow;
+                font-size: .6em;
+                width: 500px;
+                margin: auto;
+            }
+        }
+        body {
+            padding-left: 4em;
+            padding-right: 4em;
+            text-align: justify;
+            }
+        div, p, ul  {
+            font-size: 1.3em;
+            line-height: 1.6;
+        }
+        .aside {
+            text-align: center;
+            letter-spacing: .2em;
+            padding-top: 1em;
+            font-variant: small-caps;
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+        a:hover {
+            background-color: aqua;
+            -webkit-text-stroke-color: blue;
+            text-decoration-thickness: .5em;
+                }
+        a:visited {
+            color: red
+        }
+        a:link {
+            color: blue;
+        }
+        a:active {
+            color: orange;
+        }
+        ul li ul li a {
+            display: block !important;
+        }
+        ul li:hover ul {
+            display: block;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            border-radius:100%;
+            padding-left: 1em;
+            position: relative;
+            max-width: 400px;
+        }
+        .wel        {
+            text-align: center;
+            font-variant: small-caps;
+        }
+        .presid     {
+            width: 250px;
+            height: 200px;
+            display: inline;
+            position: relative;
+        }
+        #special {
+            position: relative;
+            float: left;
+            width: 200px;
+            height: 175px;
+            padding-left: 0em;
+            padding-top: .8em;
+            padding-right:.8em;
+        }
+        .responsive{
+            position: relative;
+            float: left;
+            width: 200px;
+            height: 175px;
+            padding-left: 0em;
+            padding-top: .8em;
+            padding-right:.8em;
+        }
+        .signIn{
+            padding-top: 0px;
+            padding-bottom: .5em;
+            text-align: center;
+            margin-left: 15%;
+            margin-right: 15%;
+            border-width: 2px;
+            border-color: black;
+        }
+        #set    {
+            margin-left: 20%;
+            margin-right: 20%;
+            background-color: lightgreen;
+            font-size: medium;
+            font-weight: bold;
+            position: relative;
+            padding-top: 0px;
+            padding-bottom: 10px;
+            border-width: 2px;
+            border-color: black;
+        }
+        #mlk    {
+            text-align: center;
+            font-size: 2em;
+            font-weight: bold;
+            color: red;
+            padding-bottom: 0px;
+        }
+    
+
+        .foot   {
+            text-align: center;
+
+            font-weight: bold;
+            letter-spacing: .5em;
+            font-variant: small-caps;
+
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        
+        marquee {
+            font-weight: bold;
+            color: green;
+            font-size: large;
+            letter-spacing: .1em;
+        }
+        .pics img  {
+            width: 250px;
+            height: 200px;
+            display: inline;
+            position: relative;
+            float: left;
+            list-style-type: none;
+            justify-content: space-between;
+            padding-top: .6em;
+
+        }
+
+        .wrapper .our_team .teamMember .memberImage img {
+            width: 250px;
+            height: 200px;
+            display: block;
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 0px;
+            line-height: .2in;
+        }
+        .wrapper .our_team .teamMember  {
+            text-align: center;
+            padding-top: 0px;    
+            line-height: .2in;       
+        }
+        .wrapper .our_team .teamMember p {
+            margin-right: 20%;
+            margin-left: 20%;
+            line-height: 1.6;
+            text-align: justify;
+            hyphens: auto;
+            font-family: arial;
+            font-size: 18px;
+            l
+        }
+        .wrapper .our_team .teamMember span  {
+            font-weight: bold;
+            padding-top: 0em;
+            line-height: 0%;
+            letter-spacing: .2rem;
+        }
+        .wrapper .our_team .teamMember h3  {
+            font-weight:bolder;
+            padding-top: 0em;
+            line-height: 0%;
+            letter-spacing: .2em;
+            font-variant: small-caps;
+            font-size: 1.5em;
+            color: red;
+        }
+        #motto    {
+            font-size: 1.4em;
+            padding: 1em;
+        }
+        .home   {
+            line-height: 1.6;
+            font-size: 1.3em;
+            }
+        .sig {
+            line-height: 80%;
+        }
+
+      .navbar {
+            display: flex;
+            background-color: black;
+            align-items: center;
+            justify-content: space-between;
+            padding: 5px;
+                 }
+
+      .navbar a {
+          color: white;
+          text-decoration: none;
+          font-size: 1.12em;
+          font-variant: small-caps;
+          text-align: center;
+          margin-right: 1em;
+        }
+
+       /* This is the style for the logo image */
+    .logo {
+          width: 100px;
+          height: 100px;
+              }
+    .para      {
+           font-size: 17px;
+           line-height: 1.6;
+     }
+
+     .butnav    {
+        text-align: center;
+        font-size: 2em;
+        font-variant: small-caps;
+     }
+
+</style>
